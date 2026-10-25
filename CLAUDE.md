@@ -1,6 +1,6 @@
 # Snus Quit
 
-An iOS app for quitting snus: log daily pouches, follow a step-down quit plan, and track progress over time.
+A web app (PWA, installed to the iPhone home screen) for quitting snus: log daily pouches, follow a step-down quit plan, and track progress over time.
 
 ## Agent skills
 
