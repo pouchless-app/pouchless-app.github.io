@@ -101,7 +101,7 @@ A small personal app on my iPhone home screen. I tap +1 each time I take a Pouch
 
 ## Implementation Decisions
 
-- **Platform** (ADR-0001): a Progressive Web App built with Vite, React and TypeScript, installable via `vite-plugin-pwa` (manifest plus service worker for offline use). Hosted on GitHub Pages from a new public repository under `saitoharuki-git`, deployed by a GitHub Actions workflow. Mobile-only layout, follows the system colour scheme, single green accent, simple generated icon, home-screen name "Snus Quit". English only.
+- **Platform** (ADR-0001): a Progressive Web App built with Vite, React and TypeScript, installable via `vite-plugin-pwa` (manifest plus service worker for offline use). Hosted on GitHub Pages from a new public repository `pouchless-app.github.io` owned by the `pouchless-app` GitHub organization, served at https://pouchless-app.github.io (root path), so neither the username nor "snus" appears in the URL, deployed by a GitHub Actions workflow. Mobile-only layout, follows the system colour scheme, single green accent, simple generated icon, home-screen name "Pouchless" (the name avoids the word snus so the phone doesn't advertise it). English only.
 - **Modules:**
   - **Domain core**: pure TypeScript with no React, browser or storage dependencies. All rules live here. This is the app's single test seam.
   - **Storage adapter**: thin load/save of the Stored Data to `localStorage` under one key. No logic.

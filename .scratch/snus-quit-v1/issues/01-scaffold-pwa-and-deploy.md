@@ -6,9 +6,9 @@ Spec: `../spec.md`
 
 ## What to build
 
-An empty but installable app shell, live at a public URL. Set up Vite + React + TypeScript with Vitest. Add `vite-plugin-pwa` (manifest named "Snus Quit", generated green icon, standalone display, offline service worker). Build a mobile layout that follows the system light/dark setting, with a bottom tab bar (Today, Progress, Milestones, Settings) whose tabs are placeholders for now. Add a GitHub Actions workflow that builds and deploys to GitHub Pages, with the right base path.
+An empty but installable app shell, live at a public URL. Set up Vite + React + TypeScript with Vitest. Add `vite-plugin-pwa` (manifest named "Pouchless", generated green icon, standalone display, offline service worker). Build a mobile layout that follows the system light/dark setting, with a bottom tab bar (Today, Progress, Milestones, Settings) whose tabs are placeholders for now. Add a GitHub Actions workflow that builds and deploys to GitHub Pages, serving at the root of https://pouchless-app.github.io.
 
-**Confirm with the user before creating the public GitHub repo** under `saitoharuki-git` and pushing. That step publishes the code.
+**Confirm with the user before creating the public GitHub repo** `pouchless-app/pouchless-app.github.io` and pushing. That step publishes the code.
 
 ## Acceptance criteria
 
